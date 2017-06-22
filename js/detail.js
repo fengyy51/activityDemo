@@ -21,12 +21,14 @@ function ajaxContact(){
 			var endSignTime=data.data.endSignTime;
 			var limitNumber=data.data.limitNumber;
 			var address=data.data.address;
+			var price=data.data.price;
 			makeTopImg(topImg);
 			makeTitle(title);
 			makeSign(limitNumber);
 			makeActivityTime(startActivityTime,endActivityTime);
 			makeEndSign(endSignTime);
 			makeAddress(address);
+			makePrice(price);
 
 		},
 		error:function(error){
@@ -66,6 +68,10 @@ function makeAddress(address){
 	var Address=document.getElementById("address");
 	var strHtml=address;
 	Address.append(strHtml);
+}
+function makePrice(price){
+	var Price=document.getElementById("price");
+	Price.append(price);
 }
 function htmlContact(){
 	$.ajax({

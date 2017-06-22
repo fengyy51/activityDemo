@@ -1,6 +1,4 @@
-html,body{
-	overflow-x: hidden;
-}
+
 /* 顶部图片 */
 .topPicture img{   
 	width: 100%;
@@ -16,7 +14,7 @@ html,body{
 	font-size: 0.9rem;
 }
 /* 时间，地址  */
-#time,#address{
+#time,#address,#price{
 	margin-top: 0.5rem;
 	padding-left: 28px;
 }
@@ -27,23 +25,15 @@ html,body{
 #address{
 	background:url("../resource/fonts/address.png" ) no-repeat 0px 0px;
 }
-
+/* 价格 */
+#price{
+	background:url("../resource/fonts/price.png" ) no-repeat 0px 0px;
+}
 /* 截止报名日期 */
 #endSign{
 	display: block;
 	margin-left: 2%;
 	color: #999999;
-}
-a{
-	text-decoration: none;
-}
-.border{
-	border-bottom: 0.6rem #f1f1f1 solid;
-
-}
-/* 排版外边距 */
-.composing{
-	padding: 0 3% 3% 5%;
 }
 /* 内容最底部 底线*/
 .footest{

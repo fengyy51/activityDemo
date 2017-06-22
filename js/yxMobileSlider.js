@@ -33,7 +33,7 @@
             _this.width(s.width).height(s.height).css({
                 position: 'relative',
                 overflow: 'hidden',
-				margin:'0 auto'
+                margin:'0 auto'
             }); //设定容器宽高及样式
             oMover.css({
                 position: 'absolute',

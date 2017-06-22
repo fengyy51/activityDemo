@@ -12,20 +12,27 @@
 <body >
 <!--效果html开始-->
 	<div class="slider  border">
-	  <ul>
-	    <li><a href="#" target="_blank"><img src="../resource/img/1.jpeg" alt="请等待片刻"></a></li>
+	  <ul id="topPicture">	
+	      <li><a href="#" target="_blank"><img src="../resource/img/1.jpeg" alt="请等待片刻"></a></li>
 		<li><a href = "#" target="_blank"><img src="../resource/img/2.jpeg" alt="请等待片刻"></a></li>
 		<li><a href = "#" target="_blank"><img src="../resource/img/3.jpeg" alt="请等待片刻"></a></li>
 		<li><a href = "#" target="_blank"><img src="../resource/img/4.jpeg" alt="请等待片刻"></a></li>
 		<li><a href = "#" target="_blank"><img src="../resource/img/1.jpeg" alt="请等待片刻"></a></li>
+
 	  </ul>
-	</div>	
-  <script type="text/javascript" src="../js/yxMobileSlider.js"></script>
-  <script>
-    $(".slider").yxMobileSlider({width:360,height:150,during:3000})
-  </script>
+	</div>	  
 <!--效果html结束-->
+<div class="composing">
+	<div class="titleList">强力推荐</div>
+	<div id="listItem">		
+	</div>
+</div>
+<script type="text/javascript" src="../js/listActivity.js"></script>
+<script type="text/javascript" src="../js/yxMobileSlider.js"></script>
 
 
+  <script>
+   $(".slider").yxMobileSlider({width:360,height:150,during:3000})
+  </script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+{
+	"data": {
+    "topPicture":["../resource/img/1.jpeg","../resource/img/2.jpeg","../resource/img/3.jpeg","../resource/img/4.jpeg","../resource/img/1.jpeg"],
+    "item":[
+    {"img":"../resource/img/1.jpeg","title":"夜市免费送礼品","startTime":"06/24","address":"义乌宾王158一区1003","price":"免费"},
+    {"img":"../resource/img/1.jpg","title":"第二季豪礼来袭","startTime":"06/25","address":"义乌宾王158一区1023","price":"¥10"},
+    {"img":"../resource/img/1.jpeg","title":"夜市免费送礼品","startTime":"06/24","address":"义乌宾王158一区1003","price":"免费"},
+    {"img":"../resource/img/1.jpg","title":"第二季豪礼来袭","startTime":"06/25","address":"义乌宾王158一区1023","price":"¥10"}]
+  }
+}
